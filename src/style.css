@@ -1,0 +1,95 @@
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin-top: 50px;
+}
+
+
+.top img{
+    width: 400px;
+    height: auto;
+}
+
+.sidebox{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.choose-word{
+    width: 150px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.under_score{
+    text-decoration: underline;
+}
+
+.alphabet{
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.letters{
+    font-size: 25px;
+    display: flex;
+}
+.under_score{
+    margin-left: 10px;
+}
+
+.small-box{
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    background-color: lightgrey;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.guess{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.guess input{
+    margin: 0 50px 0 50px;
+    width: 300px;
+    height: 25px;
+}
+
+.guess button{
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    color: blue;
+    border: 1px solid blue;
+}
+
+.white{
+    color: white;
+}
