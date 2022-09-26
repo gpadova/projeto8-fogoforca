@@ -68,6 +68,12 @@
     border-radius: 5px;
     border: 1px solid black;
 }
+
+.small-box:disabled{
+    background-color: #9FAAB5;
+    color: #79818A;
+}
+
 .guess{
     display: flex;
     align-items: center;
